@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no, viewport-fit=cover">
+   
+    <title>京喜</title>
+
+    <link rel="stylesheet" href="../Navigation/BottomNavigation.css">
+    <link rel="stylesheet" href="../Navigation/TopNavigation.css">
+    <link rel="stylesheet" href="../ListView/listview.css">
+    <link rel="stylesheet" href="../fixed/fixed.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+        <!-- 固定——返回顶部按钮 -->
+        <div id="fixed">      
+        </div>
+
+<!-- 顶部导航栏 -->
+        <div id="top">
+            <div id="top_input">
+                <div id="input">大米</div>
+                <div id="button">搜索</div>
+            </div>     
+            
+            <div id="top_view">
+
+                <div id="view_left" onclick="replace()">
+                    <p id="selected">精选</p>
+                    <div class="view" id="cla"></div>
+                </div>
+                <div id="view_scroll">
+                    
+                    <ul id="scroll_ul">
+                        <li>食品
+                            <div class="view"></div>
+                        </li>
+                       
+                        <li>内衣
+                            <div class="view"></div>
+                        </li>
+                        <li>生鲜
+                            <div class="view"></div>
+                        </li>
+                        <li >个护
+                            <div class="view"></div>
+                        </li>
+                        <li>女装
+                            <div class="view"></div>
+                        </li>
+                        <li>家电
+                            <div class="view"></div>
+                        </li>
+                        <li>数码
+                            <div class="view"></div>
+                        </li>
+                        <li>运动
+                            <div class="view"></div>
+                        </li>
+                        <li>百货
+                            <div class="view"></div>
+                        </li>
+                        <li>图书
+                            <div class="view"></div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="view_right" onclick="drop()">
+                    <img src="../img/edc.png">
+                </div>
+
+            </div>
+        
+        </div>
+
+        <!-- 底部导航栏 -->
+        <div id="bottom_div">
+            <a  class="bottom_botton"  href="../index/index.html">
+                <img src="../img/index_hove.webp">
+                <span>首页</span>
+            </a>
+
+            <a class="bottom_botton" href="../info/info.html">
+                <img src="../img/info.webp">        
+                <span>分类</span>
+            </a>
+
+            <a class="bottom_botton" href="../special/special.html">
+                <img src="../img/qiang.webp">        
+                <span>特价团</span>
+            </a>
+
+            <a class="bottom_botton" href="../shoppingCart/shoppingCart.html">
+                <img src="../img/ShoppingCart.webp" >        
+                <span>购物车</span>
+            </a>
+
+            <a class="bottom_botton" href="../me/me.html">
+                <img src="../img/me.webp">        
+                <span>我的</span>
+            </a>
+        </div>
+
+    <div id="box">
+        <div id="all">
+            <div id="all_box">
+                <span>全部类目</span>
+                <ul id="all_ul">
+                <li>精选</li>
+                <li>食品</li>
+               
+                <li>内衣</li>
+                <li>生鲜</li>
+                <li>个护</li>
+                <li>女装</li>
+                <li>家电</li>
+                <li>数码</li>
+                <li>运动</li>
+                <li>百货</li>
+                <li>图书</li>
+                </ul> 
+            </div>
+           
+        </div>
+        
+
+        <div id="bottom">
+
+            <div id="replace" >
+                <div id="module_div">
+                    <ul id="module">
+                        <li class="module_li">
+                            <img class="module_img" src="../img/a1.webp">
+                            <p>领神卷</p>
+                        </li>
+                        <li class="module_li">
+                            <img class="module_img" src="../img/a2.webp">
+                            <p>9.9元好货</p>
+                        </li>
+                        <li class="module_li">
+                            <img class="module_img" src="../img/a3.webp">
+                            <p>充值中心</p>
+                        </li>
+                        <li class="module_li">
+                            <img class="module_img" src="../img/a4.webp">
+                            <p>学生专享</p>
+                        </li>
+                        <li class="module_li">
+                            <img class="module_img" src="../img/a5.webp">
+                            <p>热卖排行</p>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div id="student">
+                    <img class="student_img" src="../img/b1.png">
+                    <img class="student_img" src="../img/b2.png">
+                    <a id="student_a">1元起限量抢</a>
+                
+                    <div id="student_right">
+                        <ul>
+                            <li>
+                                <img src="../img/c1.webp" alt="">
+                                <a class="price">￥9.8</a>
+                            </li>
+                            <li>
+                                <img src="../img/c2.webp" alt="">
+                                <a class="price">￥11.9</a>
+                            </li>
+                            <li>
+                                <img src="../img/c3.webp" alt="">
+                                <a class="price">￥10.9</a>
+                            </li>
+                            <li>
+                                <img src="../img/c4.webp" alt="">
+                                <a class="price">￥9.9</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+
+
+            <div id="list_view">
+                <ul class="list_ul" id="list_ul1">
+                  
+                </ul>
+
+                <ul class="list_ul" id="list_ul2">
+
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+
+<script src="../ListView/listview.js"> </script>
+<script src="../initial/initial.js"> </script>
+<script src="./index.js"> </script>
+<script src="../fixed/fixed.js"> </script>
+
+</html>

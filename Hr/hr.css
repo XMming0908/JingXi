@@ -1,0 +1,33 @@
+#fenge{
+    display: flex;
+    font-size: .2rem;
+    align-items: center;
+    color: rgb(144, 144, 144);
+    padding-bottom: .3rem;
+}
+
+.transform{
+    width: .1rem;
+    height: .1rem;
+    background-color: rgb(144, 144, 144);
+    transform: rotate(45deg);
+    margin-right: .2rem;
+   
+
+}
+ .transform:nth-child(4){
+        margin: 0 0 0 .2rem;
+    }
+
+.transform:nth-child(5){
+    margin: 0 .2rem 0 0;
+}
+
+.transform:nth-child(1){
+    margin: 0 0 0 .2rem;
+}
+
+hr{
+    flex: 1;
+    
+}

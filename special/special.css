@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:  rgba(238, 238, 238, 0.662);;
+}
+
+#top{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+}
+
+.top_div{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.view{
+    width: .4rem;
+    background-color: aqua;
+    height: 2px;
+    border-radius: 10px;
+    margin-top: 2px;
+  }
+
+  .top_div span{
+    color: rgb(179, 179, 179);
+    font-size: .3rem;
+  }
+
+  .box{
+    margin: 0 .2rem 0 .2rem;
+    
+  }
+
+.li{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    margin: 0 .2rem .2rem .2rem;
+    border-radius: 20px;
+}
+
+.img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 20px 0px 0px 20px ;
+}
+
+.li_right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px
+}
+
+
+.right_top img{
+    width: .8rem;
+    height: .3rem;
+    position: absolute;
+    padding-top: .09rem;
+    margin-right: 10px;
+}
+
+.right_top a{
+    word-break: break-all;
+    font-size: .3rem;
+    overflow: hidden;
+    text-indent: .9rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.right_middle{
+    position: relative;
+    width: 100%;
+    height: 1.2rem;
+}
+
+.right_middle img{
+   
+    width: 100%;
+   
+}
+
+
+.right_middle s{
+    font-size: .25rem;
+    position: absolute;
+    left: 0;
+    top: .8rem;
+    color: rgb(119, 119, 119);
+}
+
+.right_middle i{
+    width: 1rem;
+    height: .5rem;
+    background:url(../img/img2.png) ;
+    font-size: .25rem;
+    display: flex;
+    position: absolute;
+    left: 1.5rem;
+    top: .4rem;
+    color: rgb(119, 119, 119);
+    background-size:  100% 100%;
+    justify-content: center;
+}
+
+
+
+.right_middle a{
+    width: .4rem;
+    font-size: .2rem;
+    word-break: break-all;
+    color: #9C520A;
+    position: absolute;
+    left: calc(50% - .2rem);
+    top: .2rem;
+}
+
+.right_bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: .25rem;
+    position: relative;
+}
+
+.right_bottom img{
+width: 3rem;
+}
+
+
+.right_bottom a:nth-child(3){
+    color: red;
+    position: absolute;
+    font-size: .25rem;
+    font-weight: bold;
+    right: .8rem;
+    top: .08rem;
+}
+
+.right_bottom a:nth-child(2){
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: .25rem;
+    font-weight: bold;
+    left: 1rem;
+    top: .08rem;
+}
+
+.right_bottom span{
+    margin-top: 10px;
+    color: rgb(155, 155, 155);
+  
+}

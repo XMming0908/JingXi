@@ -1,0 +1,23 @@
+
+#fixed{
+    background-color: rgba(0,0,0,.7);
+    border-radius: 3PX 0 0 3PX;
+    bottom: 300PX;
+    height: 70PX;
+    position: fixed;
+    right: 0;
+    display: none;
+    width: 70PX;
+    z-index: 12;
+}
+
+#fixed::after{
+    background-image: url(../img/fixed.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 50PX;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+}

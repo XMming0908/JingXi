@@ -1,0 +1,156 @@
+.bottom_botton:nth-child(5) span{
+    color: red;
+}
+
+.margin{
+    margin: 0 .2rem 0 .2rem;
+}
+
+body{
+    background-color:  rgba(238, 238, 238, 0.662);;
+}
+
+#box{
+    height: calc(100% - 1rem);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    z-index: 99;
+}
+
+#background{
+    width: 100%;
+    height: 3.525rem;
+    background: url(./img/background.png) 0 0/100% auto no-repeat;;
+    position: absolute;
+   
+}
+
+#head{
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#head :nth-child(1){
+    width: .8rem;
+    height: .8rem;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+#head a{
+    font-size: .3rem;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#head :nth-child(3){
+    width: .55rem;
+    height: .55rem;
+    right: .13rem;
+    top: .2rem;
+    position: absolute;
+}
+
+#envelope{
+   
+    height: 1.5rem;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+.envelope_div{
+    flex: 1;
+    width: calc(100%/2);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: .25rem;
+}
+
+.envelope_div span{
+    font-weight: bold;
+    font-size: .4rem;
+}
+
+#order{
+   
+    height: 2rem;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.order:nth-child(1){
+    width: 100%;
+    height: .7rem;
+    line-height: .7rem;
+   
+}
+
+.order_div:nth-child(2){
+    width: 100%;
+    height: 1.3rem;
+  
+    display: flex;
+    flex-direction: row;
+}
+
+.order_div:nth-child(1){
+    font-size: .27rem;
+    float: left;
+    line-height: .7rem;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.order:nth-child(2){
+    font-size: .24rem;
+    float: right;
+    line-height: .7rem;
+    margin-right: 20px;
+    color: rgb(156, 156, 156);
+}
+
+.order_view{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.order_view img{
+   width: .6rem;
+   height: .6rem;
+   background-size: cover;
+}
+
+.order_view span{
+    font-size: .2rem;
+}
+ 
+.order_view div{
+    font-size: .2rem;
+    border-radius: 50%;
+    width: .25rem;
+    height: .25rem;
+    background-color: red;
+    position: absolute;
+    text-align: center;
+    top: .1rem;
+    right: .5rem;
+    color: white;
+}
